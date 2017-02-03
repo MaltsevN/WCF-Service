@@ -1,0 +1,6 @@
+c:\users\svezho\documents\visual studio 2015\Projects\WCF Service\WCF Service\bin\Debug\WCF Service.dll.config
+c:\users\svezho\documents\visual studio 2015\Projects\WCF Service\WCF Service\bin\Debug\WCF Service.dll
+c:\users\svezho\documents\visual studio 2015\Projects\WCF Service\WCF Service\bin\Debug\WCF Service.pdb
+c:\users\svezho\documents\visual studio 2015\Projects\WCF Service\WCF Service\obj\Debug\WCF Service.csprojResolveAssemblyReference.cache
+c:\users\svezho\documents\visual studio 2015\Projects\WCF Service\WCF Service\obj\Debug\WCF Service.dll
+c:\users\svezho\documents\visual studio 2015\Projects\WCF Service\WCF Service\obj\Debug\WCF Service.pdb

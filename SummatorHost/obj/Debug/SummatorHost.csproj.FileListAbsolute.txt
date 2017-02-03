@@ -1,0 +1,8 @@
+c:\users\svezho\documents\visual studio 2015\Projects\WCF Service\SummatorHost\bin\Debug\SummatorHost.exe.config
+c:\users\svezho\documents\visual studio 2015\Projects\WCF Service\SummatorHost\bin\Debug\SummatorHost.exe
+c:\users\svezho\documents\visual studio 2015\Projects\WCF Service\SummatorHost\bin\Debug\SummatorHost.pdb
+c:\users\svezho\documents\visual studio 2015\Projects\WCF Service\SummatorHost\bin\Debug\WCF Service.dll
+c:\users\svezho\documents\visual studio 2015\Projects\WCF Service\SummatorHost\bin\Debug\WCF Service.pdb
+c:\users\svezho\documents\visual studio 2015\Projects\WCF Service\SummatorHost\obj\Debug\SummatorHost.csprojResolveAssemblyReference.cache
+c:\users\svezho\documents\visual studio 2015\Projects\WCF Service\SummatorHost\obj\Debug\SummatorHost.exe
+c:\users\svezho\documents\visual studio 2015\Projects\WCF Service\SummatorHost\obj\Debug\SummatorHost.pdb
