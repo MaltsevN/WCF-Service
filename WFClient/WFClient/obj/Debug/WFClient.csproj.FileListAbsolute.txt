@@ -1,0 +1,9 @@
+C:\Users\svezho\Documents\Visual Studio 2015\Projects\WebService\WFClient\WFClient\bin\Debug\WFClient.exe.config
+C:\Users\svezho\Documents\Visual Studio 2015\Projects\WebService\WFClient\WFClient\obj\Debug\WFClient.csprojResolveAssemblyReference.cache
+C:\Users\svezho\Documents\Visual Studio 2015\Projects\WebService\WFClient\WFClient\obj\Debug\WFClient.Form1.resources
+C:\Users\svezho\Documents\Visual Studio 2015\Projects\WebService\WFClient\WFClient\obj\Debug\WFClient.Properties.Resources.resources
+C:\Users\svezho\Documents\Visual Studio 2015\Projects\WebService\WFClient\WFClient\obj\Debug\WFClient.csproj.GenerateResource.Cache
+C:\Users\svezho\Documents\Visual Studio 2015\Projects\WebService\WFClient\WFClient\bin\Debug\WFClient.exe
+C:\Users\svezho\Documents\Visual Studio 2015\Projects\WebService\WFClient\WFClient\bin\Debug\WFClient.pdb
+C:\Users\svezho\Documents\Visual Studio 2015\Projects\WebService\WFClient\WFClient\obj\Debug\WFClient.exe
+C:\Users\svezho\Documents\Visual Studio 2015\Projects\WebService\WFClient\WFClient\obj\Debug\WFClient.pdb
