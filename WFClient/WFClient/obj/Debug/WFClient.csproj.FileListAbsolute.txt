@@ -7,3 +7,12 @@ C:\Users\svezho\Documents\Visual Studio 2015\Projects\WebService\WFClient\WFClie
 C:\Users\svezho\Documents\Visual Studio 2015\Projects\WebService\WFClient\WFClient\bin\Debug\WFClient.pdb
 C:\Users\svezho\Documents\Visual Studio 2015\Projects\WebService\WFClient\WFClient\obj\Debug\WFClient.exe
 C:\Users\svezho\Documents\Visual Studio 2015\Projects\WebService\WFClient\WFClient\obj\Debug\WFClient.pdb
+D:\ISD\WCF-Service\WFClient\WFClient\bin\Debug\WFClient.exe.config
+D:\ISD\WCF-Service\WFClient\WFClient\obj\Debug\WFClient.exe
+D:\ISD\WCF-Service\WFClient\WFClient\obj\Debug\WFClient.pdb
+D:\ISD\WCF-Service\WFClient\WFClient\bin\Debug\WFClient.exe
+D:\ISD\WCF-Service\WFClient\WFClient\bin\Debug\WFClient.pdb
+D:\ISD\WCF-Service\WFClient\WFClient\obj\Debug\WFClient.csprojResolveAssemblyReference.cache
+D:\ISD\WCF-Service\WFClient\WFClient\obj\Debug\WFClient.Form1.resources
+D:\ISD\WCF-Service\WFClient\WFClient\obj\Debug\WFClient.Properties.Resources.resources
+D:\ISD\WCF-Service\WFClient\WFClient\obj\Debug\WFClient.csproj.GenerateResource.Cache

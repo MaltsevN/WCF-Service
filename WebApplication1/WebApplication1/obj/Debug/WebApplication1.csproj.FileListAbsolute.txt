@@ -31,3 +31,36 @@ C:\Users\svezho\Documents\Visual Studio 2015\Projects\WebService\WebApplication1
 C:\Users\svezho\Documents\Visual Studio 2015\Projects\WebService\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
 C:\Users\svezho\Documents\Visual Studio 2015\Projects\WebService\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
 C:\Users\svezho\Documents\Visual Studio 2015\Projects\WebService\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\ISD\WCF-Service\WebApplication1\WebApplication1\bin\ApplicationInsights.config
+D:\ISD\WCF-Service\WebApplication1\WebApplication1\bin\roslyn\csc.exe
+D:\ISD\WCF-Service\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ISD\WCF-Service\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ISD\WCF-Service\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ISD\WCF-Service\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ISD\WCF-Service\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ISD\WCF-Service\WebApplication1\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ISD\WCF-Service\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+D:\ISD\WCF-Service\WebApplication1\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+D:\ISD\WCF-Service\WebApplication1\WebApplication1\bin\roslyn\vbc.exe
+D:\ISD\WCF-Service\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
+D:\ISD\WCF-Service\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+D:\ISD\WCF-Service\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+D:\ISD\WCF-Service\WebApplication1\WebApplication1\bin\WebApplication1.dll
+D:\ISD\WCF-Service\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+D:\ISD\WCF-Service\WebApplication1\WebApplication1\bin\Microsoft.AI.Agent.Intercept.dll
+D:\ISD\WCF-Service\WebApplication1\WebApplication1\bin\Microsoft.AI.DependencyCollector.dll
+D:\ISD\WCF-Service\WebApplication1\WebApplication1\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\ISD\WCF-Service\WebApplication1\WebApplication1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\ISD\WCF-Service\WebApplication1\WebApplication1\bin\Microsoft.AI.Web.dll
+D:\ISD\WCF-Service\WebApplication1\WebApplication1\bin\Microsoft.AI.WindowsServer.dll
+D:\ISD\WCF-Service\WebApplication1\WebApplication1\bin\Microsoft.ApplicationInsights.dll
+D:\ISD\WCF-Service\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ISD\WCF-Service\WebApplication1\WebApplication1\bin\Microsoft.AI.DependencyCollector.xml
+D:\ISD\WCF-Service\WebApplication1\WebApplication1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\ISD\WCF-Service\WebApplication1\WebApplication1\bin\Microsoft.AI.Web.xml
+D:\ISD\WCF-Service\WebApplication1\WebApplication1\bin\Microsoft.AI.WindowsServer.xml
+D:\ISD\WCF-Service\WebApplication1\WebApplication1\bin\Microsoft.ApplicationInsights.xml
+D:\ISD\WCF-Service\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ISD\WCF-Service\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+D:\ISD\WCF-Service\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+D:\ISD\WCF-Service\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb

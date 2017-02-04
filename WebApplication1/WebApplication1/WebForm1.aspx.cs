@@ -19,7 +19,7 @@ namespace WebApplication1
             var aValue = int.Parse(TextBox1.Text);
             var bValue = int.Parse(TextBox2.Text);
 
-            var client = new SummatorService.SummatorServiceClient("BasicHttpBinding_ISummatorService");
+            var client = new CalcService.SummatorServiceClient("BasicHttpBinding_ISummatorService");
 
             Label1.Text = client.GetSum(aValue, bValue).ToString();
             client.Close();

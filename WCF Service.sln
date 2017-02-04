@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF Service", "WCF Service\WCF Service.csproj", "{BD2AF287-17C2-47AA-BEAD-DAF5A1432B10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SummatorHost", "SummatorHost\SummatorHost.csproj", "{B023B052-57E4-4788-9876-02E5B07650FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateHost", "SummatorHost\CalculateHost.csproj", "{B023B052-57E4-4788-9876-02E5B07650FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

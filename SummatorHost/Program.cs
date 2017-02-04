@@ -5,13 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.ServiceModel;
 
-namespace SummatorHost
+namespace CalculateHost
 {
     class Program
     {
         static void Main(string[] args)
         {
-            using (var host = new ServiceHost(typeof(WCF_Service.SummatorService)))
+            using (var host = new ServiceHost(typeof(WCF_Service.CalculateService)))
             {
                 host.Open();
                 Console.WriteLine("Host is on");

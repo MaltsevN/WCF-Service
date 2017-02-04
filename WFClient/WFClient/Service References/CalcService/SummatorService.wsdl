@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="SummatorService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
-  <wsp:Policy wsu:Id="NetTcpBinding_ISummatorService_policy">
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="CalculateService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="NetTcpBinding_IMultiplicatorService_policy">
     <wsp:ExactlyOne>
       <wsp:All>
         <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1" />
@@ -41,10 +41,22 @@
   <wsdl:message name="ISummatorService_GetSum_OutputMessage">
     <wsdl:part name="parameters" element="tns:GetSumResponse" />
   </wsdl:message>
+  <wsdl:message name="IMultiplicatorService_GetMult_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMult" />
+  </wsdl:message>
+  <wsdl:message name="IMultiplicatorService_GetMult_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMultResponse" />
+  </wsdl:message>
   <wsdl:portType name="ISummatorService">
     <wsdl:operation name="GetSum">
       <wsdl:input wsaw:Action="http://tempuri.org/ISummatorService/GetSum" message="tns:ISummatorService_GetSum_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/ISummatorService/GetSumResponse" message="tns:ISummatorService_GetSum_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="IMultiplicatorService">
+    <wsdl:operation name="GetMult">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMultiplicatorService/GetMult" message="tns:IMultiplicatorService_GetMult_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMultiplicatorService/GetMultResponse" message="tns:IMultiplicatorService_GetMult_OutputMessage" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_ISummatorService" type="tns:ISummatorService">
@@ -59,11 +71,11 @@
       </wsdl:output>
     </wsdl:operation>
   </wsdl:binding>
-  <wsdl:binding name="NetTcpBinding_ISummatorService" type="tns:ISummatorService">
-    <wsp:PolicyReference URI="#NetTcpBinding_ISummatorService_policy" />
+  <wsdl:binding name="NetTcpBinding_IMultiplicatorService" type="tns:IMultiplicatorService">
+    <wsp:PolicyReference URI="#NetTcpBinding_IMultiplicatorService_policy" />
     <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
-    <wsdl:operation name="GetSum">
-      <soap12:operation soapAction="http://tempuri.org/ISummatorService/GetSum" style="document" />
+    <wsdl:operation name="GetMult">
+      <soap12:operation soapAction="http://tempuri.org/IMultiplicatorService/GetMult" style="document" />
       <wsdl:input>
         <soap12:body use="literal" />
       </wsdl:input>
@@ -72,14 +84,14 @@
       </wsdl:output>
     </wsdl:operation>
   </wsdl:binding>
-  <wsdl:service name="SummatorService">
+  <wsdl:service name="CalculateService">
     <wsdl:port name="BasicHttpBinding_ISummatorService" binding="tns:BasicHttpBinding_ISummatorService">
-      <soap:address location="http://localhost:8080/WCF_Service.SummatorService" />
+      <soap:address location="http://localhost:8080/CalculateService" />
     </wsdl:port>
-    <wsdl:port name="NetTcpBinding_ISummatorService" binding="tns:NetTcpBinding_ISummatorService">
-      <soap12:address location="net.tcp://localhost:45617/WCF_Service.SummatorService" />
+    <wsdl:port name="NetTcpBinding_IMultiplicatorService" binding="tns:NetTcpBinding_IMultiplicatorService">
+      <soap12:address location="net.tcp://localhost:45617/CalculateService" />
       <wsa10:EndpointReference>
-        <wsa10:Address>net.tcp://localhost:45617/WCF_Service.SummatorService</wsa10:Address>
+        <wsa10:Address>net.tcp://localhost:45617/CalculateService</wsa10:Address>
         <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
           <Upn>svezho-ПК\svezho</Upn>
         </Identity>

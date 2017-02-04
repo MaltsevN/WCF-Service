@@ -1,0 +1,8 @@
+D:\ISD\WCF-Service\SummatorHost\bin\Debug\SummatorHost.exe.config
+D:\ISD\WCF-Service\SummatorHost\bin\Debug\SummatorHost.exe
+D:\ISD\WCF-Service\SummatorHost\bin\Debug\SummatorHost.pdb
+D:\ISD\WCF-Service\SummatorHost\bin\Debug\WCF Service.dll
+D:\ISD\WCF-Service\SummatorHost\bin\Debug\WCF Service.pdb
+D:\ISD\WCF-Service\SummatorHost\obj\Debug\CalculateHost.csprojResolveAssemblyReference.cache
+D:\ISD\WCF-Service\SummatorHost\obj\Debug\SummatorHost.exe
+D:\ISD\WCF-Service\SummatorHost\obj\Debug\SummatorHost.pdb

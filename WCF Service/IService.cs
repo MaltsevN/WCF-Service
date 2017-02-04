@@ -14,4 +14,11 @@ namespace WCF_Service
         [OperationContract]
         int GetSum(int a, int b);
     }
+
+    [ServiceContract]
+    public interface IMultiplicatorService
+    {
+        [OperationContract]
+        int GetMult(int a, int b);
+    }
 }

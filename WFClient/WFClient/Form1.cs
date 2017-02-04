@@ -22,9 +22,9 @@ namespace WFClient
             var aValue = int.Parse(textBox1.Text);
             var bValue = int.Parse(textBox2.Text);
 
-            var client = new SummatorService.SummatorServiceClient("NetTcpBinding_ISummatorService");
+            var client = new CalcService.MultiplicatorServiceClient("NetTcpBinding_IMultiplicatorService");
 
-            label1.Text = client.GetSum(aValue, bValue).ToString();
+            label1.Text = client.GetMult(aValue, bValue).ToString();
             client.Close();
         }
     }

@@ -4,3 +4,8 @@ c:\users\svezho\documents\visual studio 2015\Projects\WCF Service\WCF Service\bi
 c:\users\svezho\documents\visual studio 2015\Projects\WCF Service\WCF Service\obj\Debug\WCF Service.csprojResolveAssemblyReference.cache
 c:\users\svezho\documents\visual studio 2015\Projects\WCF Service\WCF Service\obj\Debug\WCF Service.dll
 c:\users\svezho\documents\visual studio 2015\Projects\WCF Service\WCF Service\obj\Debug\WCF Service.pdb
+D:\ISD\WCF-Service\WCF Service\bin\Debug\WCF Service.dll.config
+D:\ISD\WCF-Service\WCF Service\bin\Debug\WCF Service.dll
+D:\ISD\WCF-Service\WCF Service\bin\Debug\WCF Service.pdb
+D:\ISD\WCF-Service\WCF Service\obj\Debug\WCF Service.dll
+D:\ISD\WCF-Service\WCF Service\obj\Debug\WCF Service.pdb
